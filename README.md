@@ -1,6 +1,6 @@
 # Node JS Fundamentals Concepts
 
-## Google Chrome JavaScript Runtime Environment
+## 1. Google Chrome JavaScript Runtime Environment
 
 What do we mean by a Runtime Environemt, is all components needed to run or execute
 JavaScript program. This time around we are taking about Runtime Environment into a 
