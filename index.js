@@ -1,14 +1,11 @@
-const SuperHero = require("./super-hero");
-const superHero = require("./super-hero");
+// const math = require("./math");
+// const sum = math.add(2,3);
+// const sub = math.subtract(7,3);
+// console.log("Sum is", sum);
+// console.log("Subtract is", sub);
 
-const batman = new SuperHero("Batman");
-console.log(batman.getName()); 
-batman.setName("Bruce Wayne");
-console.log(batman.getName());
-
-console.log("------");
-
-const superman = new SuperHero("Superman");
-console.log(superman.getName()); 
-superman.setName("Clark Kent");
-console.log(superman.getName());
+const { add, subtract } = require("./math");
+const sum = add(2,3);
+const sub = subtract(7,3);
+console.log("Sum is", sum);
+console.log("Subtract is", sub);
