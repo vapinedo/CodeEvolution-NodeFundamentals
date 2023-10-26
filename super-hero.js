@@ -1,4 +1,5 @@
 class SuperHero {
+
     constructor(name) {
         this.name = name;
     }
@@ -12,5 +13,5 @@ class SuperHero {
     }
 }
 
-module.exports = SuperHero;
-// module.exports = new SuperHero("Batman");
+// module.exports = SuperHero;
+module.exports = new SuperHero("Batman");
