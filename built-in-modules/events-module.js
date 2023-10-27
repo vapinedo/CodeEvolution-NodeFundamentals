@@ -14,5 +14,4 @@ emitter.on(eventName, (size) => {
     }
 })
 
-
 emitter.emit(eventName, "large", "mushroom");
