@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Victor Pinedo ( Valp )",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "upper-case": "^3.0.0"
+  }
 }
